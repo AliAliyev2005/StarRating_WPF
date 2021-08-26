@@ -18,13 +18,19 @@ namespace WPF_Stars_User_Control.ViewModels
         private const string FilledStarImagePath = "../Images/filled star.png";
         private int _filledStarCount;
 
+        public RelayCommand FirstStarCommand { get; set; }
+        public RelayCommand SecondStarCommand { get; set; }
+        public RelayCommand ThirdStarCommand { get; set; }
+        public RelayCommand FourthStarCommand { get; set; }
+        public RelayCommand FifthStarCommand { get; set; }
+        public RelayCommand DeleteAllCommand { get; set; }
+
         public StarsViewModel()
         {
             ImagePaths = new ObservableCollection<string>();
 
             for (int i = 0; i < 5; i++)
                 ImagePaths.Add(EmptyStarImagePath);
-
 
             FirstStarCommand = new RelayCommand(FirstStarClicked);
             SecondStarCommand = new RelayCommand(SecondStarClicked);
@@ -40,20 +46,11 @@ namespace WPF_Stars_User_Control.ViewModels
             set { _imagePaths = value; OnPropertyChanged(); }
         }
 
-
         public int FilledStarCount
         {
             get { return _filledStarCount; }
             set { _filledStarCount = value; OnPropertyChanged(); }
         }
-
-        public RelayCommand FirstStarCommand { get; set; }
-        public RelayCommand SecondStarCommand { get; set; }
-        public RelayCommand ThirdStarCommand { get; set; }
-        public RelayCommand FourthStarCommand { get; set; }
-        public RelayCommand FifthStarCommand { get; set; }
-        public RelayCommand DeleteAllCommand { get; set; }
-
 
         private void FirstStarClicked(object parameter = null)
         {
@@ -85,7 +82,6 @@ namespace WPF_Stars_User_Control.ViewModels
 
         private void ConfigureStarsWhenClickedWithFilling(int filledStarNumber)
         {
-
             for (int i = 0; i < filledStarNumber; i++)
             {
                 ImagePaths[i] = FilledStarImagePath;
@@ -103,6 +99,5 @@ namespace WPF_Stars_User_Control.ViewModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
-
     }
 }

@@ -4,48 +4,48 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF_Stars_User_Control.Views"
-             mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="600">
-        
+             mc:Ignorable="d"
+             d:DesignHeight="200" d:DesignWidth="600">
     <Grid Background="White">
-
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <WrapPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <WrapPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Button Style="{StaticResource NormalButton}" Command="{Binding FirstStarCommand}">
-                <Image Source="{Binding ImagePaths[0]}" Width="32" Height="32"></Image>
+                <Image Source="{Binding ImagePaths[0]}" Width="42" Height="42"></Image>
             </Button>
 
             <Button Style="{StaticResource NormalButton}" Command="{Binding SecondStarCommand}">
-                <Image Source="{Binding ImagePaths[1]}" Width="32" Height="32"></Image>
+                <Image Source="{Binding ImagePaths[1]}" Width="42" Height="42"></Image>
             </Button>
 
             <Button Style="{StaticResource NormalButton}" Command="{Binding ThirdStarCommand}">
-                <Image Source="{Binding ImagePaths[2]}" Width="32" Height="32"></Image>
+                <Image Source="{Binding ImagePaths[2]}" Width="42" Height="42"></Image>
             </Button>
 
             <Button Style="{StaticResource NormalButton}" Command="{Binding FourthStarCommand}">
-                <Image Source="{Binding ImagePaths[3]}" Width="32" Height="32"></Image>
+                <Image Source="{Binding ImagePaths[3]}" Width="42" Height="42"></Image>
             </Button>
 
             <Button Style="{StaticResource NormalButton}" Command="{Binding FifthStarCommand}">
-                <Image Source="{Binding ImagePaths[4]}" Width="32" Height="32"></Image>
+                <Image Source="{Binding ImagePaths[4]}" Width="42" Height="42"></Image>
             </Button>
 
             <Button Style="{StaticResource NormalButton}" Margin="20, 0, 0 0" Command="{Binding DeleteAllCommand}">
-                <Image Source="/Images/delete all.png" Width="48" Height="64"></Image>
+                <Image Source="/Images/delete all.png" Width="42" Height="42"></Image>
             </Button>
 
         </WrapPanel>
 
-        <TextBlock Grid.Row="2" HorizontalAlignment="Left" FontSize="20" Margin="10, 0, 0, 0">
+        <TextBlock 
+            Grid.Row="1"
+            HorizontalAlignment="Center"
+            FontSize="30" 
+            FontWeight="DemiBold">
                 <Run Text="Rating :"/>
                 <Run FontWeight="Bold" Text="{Binding FilledStarCount}"/>
         </TextBlock>
-
     </Grid>
 </UserControl>

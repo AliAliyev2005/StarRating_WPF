@@ -35,7 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>apple rainbow.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -118,9 +119,6 @@
     <Resource Include="Images\blank star.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Images\filled star.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\delete all.png">
@@ -128,7 +126,10 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="apple rainbow.ico" />
+    <Resource Include="Images\filled star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="jackpot.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

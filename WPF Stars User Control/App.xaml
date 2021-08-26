@@ -4,14 +4,10 @@
              xmlns:local="clr-namespace:WPF_Stars_User_Control"
              StartupUri="Views/StartWindow.xaml">
     <Application.Resources>
-
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-
                 <ResourceDictionary Source="Dictionaries/ButtonsDictionary.xaml"/>
-                
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
-        
     </Application.Resources>
 </Application>

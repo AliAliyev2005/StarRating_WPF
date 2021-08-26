@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("apple%20rainbow.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("jackpot.ico")]
 
 

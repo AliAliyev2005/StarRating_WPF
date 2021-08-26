@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Stars_User_Control.Views"
         mc:Ignorable="d"
-        Title="All Star" Height="250" Width="350" WindowStartupLocation="CenterScreen" MinHeight="250" MinWidth="350" MaxHeight="250" MaxWidth="350">
-    <Grid Background="CadetBlue">
-        <local:StarsUserControl Margin="20"></local:StarsUserControl>
+        ResizeMode="NoResize"
+        Icon="/jackpot.png"
+        Title="Start Rating" Height="200" Width="350" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <local:StarsUserControl/>
     </Grid>
 </Window>

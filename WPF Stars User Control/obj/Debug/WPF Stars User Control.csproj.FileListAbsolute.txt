@@ -18,3 +18,23 @@ C:\Users\Admin\source\repos\WPF Stars User Control\WPF Stars User Control\obj\De
 C:\Users\Admin\source\repos\WPF Stars User Control\WPF Stars User Control\obj\Debug\WPF Stars User Control.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\WPF Stars User Control\WPF Stars User Control\obj\Debug\WPF Stars User Control.exe
 C:\Users\Admin\source\repos\WPF Stars User Control\WPF Stars User Control\obj\Debug\WPF Stars User Control.pdb
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\bin\Debug\WPF Stars User Control.exe.config
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\bin\Debug\WPF Stars User Control.exe
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\bin\Debug\WPF Stars User Control.pdb
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\WPF Stars User Control.csproj.AssemblyReference.cache
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\Dictionaries\ButtonsDictionary.baml
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\Views\StarsUserControl.g.cs
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\Views\StartWindow.g.cs
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\App.g.cs
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\WPF Stars User Control_MarkupCompile.cache
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\WPF Stars User Control_MarkupCompile.lref
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\App.baml
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\Views\StarsUserControl.baml
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\Views\StartWindow.baml
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\WPF Stars User Control.g.resources
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\WPF_Stars_User_Control.Properties.Resources.resources
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\WPF Stars User Control.csproj.GenerateResource.cache
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\WPF Stars User Control.csproj.CoreCompileInputs.cache
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\WPF Stars User Control.exe
+C:\Users\Ali\Source\Repos\WPF-Stars-User-Control\WPF Stars User Control\obj\Debug\WPF Stars User Control.pdb
